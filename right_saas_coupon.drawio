@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-07T10:38:46.749Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="EIWddPtsRXA_2lOSrFHF" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-07T10:45:13.777Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="oz53PlOzvhiIBI7zEPMW" version="24.0.2" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="1536" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1306" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -119,8 +119,8 @@
         <mxCell id="M-j9u1WrkIyOgK1kS638-20" value="优惠券&lt;span style=&quot;background-color: initial;&quot;&gt;状态变更&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="80" y="120" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="M-j9u1WrkIyOgK1kS638-43" value="用户券动&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;状态变更&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="250" y="450" width="60" height="30" as="geometry" />
+        <mxCell id="M-j9u1WrkIyOgK1kS638-43" value="用户券&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;状态变更&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="251" y="450" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="M-j9u1WrkIyOgK1kS638-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;curved=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" source="M-j9u1WrkIyOgK1kS638-13" target="M-j9u1WrkIyOgK1kS638-12" edge="1">
           <mxGeometry relative="1" as="geometry">
