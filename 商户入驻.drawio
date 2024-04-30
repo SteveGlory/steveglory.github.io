@@ -1,18 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2024-04-30T03:14:00.973Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="aEgkG7k7ACy1pAgbgcFi" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-30T03:16:08.807Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="-47OHgOfVBdCCjXyHLGi" version="24.3.1" type="github">
   <diagram name="Page 2" id="f50cWnhNKc0xasic3wzm">
-    <mxGraphModel dx="479" dy="3088" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-348" dy="3088" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="WJBm6pe73H-23jdvLBGB-24" style="graphMlID=entity0;gradientDirection=east;shape=swimlane;startSize=30;rounded=1;arcSize=6;collapsible=0;fillColor=#6d8764;strokeColor=#3A5431;strokeWidth=1.0;swimlaneFillColor=#FFFFFF;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="920" y="-2280" width="700" height="1010.0000000000001" as="geometry" />
-        </mxCell>
-        <mxCell id="WJBm6pe73H-23jdvLBGB-26" value="t_merchant_apply_info" style="text;html=1;spacing=0;align=center;fontFamily=courier;fontSize=12;fontStyle=0;=center;fontColor=#ffffff" parent="WJBm6pe73H-23jdvLBGB-24" vertex="1">
-          <mxGeometry y="6.67" width="230" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="WJBm6pe73H-23jdvLBGB-25" value="F_id: bigint(32) NOT NULL&lt;br&gt;F_user_no: varchar(64) - 商户对应用户编号&lt;br&gt;F_merchant_id: varchar(32) NOT NULL - 商户id&lt;br&gt;F_status: tinyint(4) - 商户状态 1| 正常 2|注销&lt;br&gt;F_check_status: tinyint(4) - 人工审核状态 0|待审核 1|审核中 2| 审核不通过 3|审核通过 4|待完善资料&lt;br&gt;F_auto_check_status: tinyint(4) - 商户自动审核状态 0|待审核 1|审核中 2| 审核不通过 3|审核通过 4|待完善资料&lt;br&gt;F_check_time: datetime - 审核通过时间&lt;br&gt;F_entity_type: varchar(64) - 主体类型,示例值ENTITY_INDIVIDUAL(&quot;自然人&quot;),ENTITY_SOLE(&quot;个体户&quot;),ENTITY_CORPORATE(&quot;企业&quot;)&lt;br&gt;F_entity_nationality: varchar(64) - 主体国籍(注册地址国家)&lt;br&gt;F_certificate_type: varchar(32) - 证件类型，例如ID(&quot;身份证&quot;),PASSPORT(&quot;护照&quot;)，REGISTRATION_NUMBER(&quot;注册编号&quot;)&lt;br&gt;F_certificate_number: varchar(256) - 证件编号&lt;br&gt;F_effective_date: date - 生效日yyyy-mm-dd&lt;br&gt;F_expiry_date: date - 失效日yyyy-mm-dd&lt;br&gt;F_date_of_birth: date - 注册/出生日期 yyyy-mm-dd&lt;br&gt;F_entity_name_ch: varchar(128) - 主体名称中文&lt;br&gt;F_entity_name_en: varchar(128) - 主体名称英文&lt;br&gt;F_address_ch_street: varchar(32) - 营业地址(中文)街道&lt;br&gt;F_address_ch_city: varchar(128) - 营业地址(中文)城市&lt;br&gt;F_address_ch_postcode: varchar(128) - 营业地址(中文)邮编&lt;br&gt;F_address_ch_province: varchar(32) - 营业地址(中文)省份&lt;br&gt;F_address_ch: varchar(200) - 营业地址(中文)&lt;br&gt;F_address_en_street: varchar(32) - 企业营业地址(英文)街道&lt;br&gt;F_address_en_city: varchar(128) - 企业营业地址(英文)城市&lt;br&gt;F_address_en_postcode: varchar(128) - 企业营业地址(英文)邮编&lt;br&gt;F_address_en_province: varchar(32) - 企业营业地址(英文)省份&lt;br&gt;F_address_en: varchar(200) - 营业地址(英文)&lt;br&gt;F_register_address_ch_street: varchar(32) - 企业注册地址(中文)街道&lt;br&gt;F_register_address_ch_city: varchar(128) - 企业注册地址(中文)城市&lt;br&gt;F_register_address_ch_postcode: varchar(128) - 企业注册地址(中文)邮编&lt;br&gt;F_register_address_ch_province: varchar(32) - 企业注册地址(中文)省份&lt;br&gt;F_register_address_ch: varchar(200) - 企业注册地址(中文)&lt;br&gt;F_register_address_en_street: varchar(32) - 企业注册地址(英文)街道&lt;br&gt;F_register_address_en_city: varchar(128) - 企业注册地址(英文)城市&lt;br&gt;F_register_address_en_postcode: varchar(128) - 企业注册地址(英文)邮编&lt;br&gt;F_register_address_en_province: varchar(32) - 企业注册地址(英文)省份&lt;br&gt;F_address_consistent: int(2) - 经营地址和居住地址是否一致，1一致，0不一致&lt;br&gt;F_register_address_en: varchar(200) - 营业注册地址(英文)&lt;br&gt;F_target_region: varchar(64) - 主要贸易国家和地区，「2字符国家代码」，最少1个，最多10个，使用&quot;,&quot;间隔；&lt;br&gt;F_merchant_category: varchar(16) - 经营品类,枚举&lt;br&gt;F_expect_turnover_amount: varchar(100) - 预估年出口额 金额&lt;br&gt;F_expect_turnover_currency: varchar(100) - 预估年出口额 币种&lt;br&gt;F_website: varchar(255) - 企业网站&lt;br&gt;F_batch_number: varchar(32) - 批次号（创建商户/修改商户变更）&lt;br&gt;F_step_number: int(11) - 步骤号(99为最后一步，提交)&lt;br&gt;F_business_code: varchar(64) - 业务线编码&lt;br&gt;F_agent_code_1g: varchar(100) - 一代代理商编号&lt;br&gt;F_agent_code_super: varchar(100) - 直属代理商编号&lt;br&gt;F_create_time: datetime - 创建时间&lt;br&gt;F_creator: varchar(64) - 创建人员&lt;br&gt;F_comment: varchar(255) - 备注&lt;br&gt;F_update_time: datetime - 更新时间&lt;br&gt;F_updator: varchar(64) - 更新人员&lt;br&gt;F_business_scale: varchar(255) - 企业人数（企业规模）,示例值(选择：1|1-19，2|20-99，3|100-500，4|500~)&lt;br&gt;F_auth: tinyint(3) - 是否身份验证（活体人脸识别/开户申请表）,0不需要1要身份验证&lt;br&gt;F_scheme: tinyint(3) - 方案:1.开户申请表方案,2.人脸识别方案&lt;br&gt;F_auth_result: tinyint(3) - 身份验证结果  0没有身份校验 1:成功 2:失败&lt;br&gt;F_address_country: varchar(255) - 实际经营地址国家地区&lt;br&gt;F_receive_flag: tinyint(4) NOT NULL - 商户接收消息，0关闭1开关&lt;br&gt;F_receive_region: varchar(32) NOT NULL - 消息接收手机国际区号，例+86&lt;br&gt;F_receive_tel: varchar(255) NOT NULL - 接收消息电话号码&lt;br&gt;F_receive_email: varchar(255) NOT NULL - 接收消息电话号码&lt;br&gt;F_bd_id: varchar(10) NOT NULL - BD编号&lt;br&gt;F_company_type: tinyint(4) NOT NULL - 企业类别 1：政府机构、上市公司、国有社团、事业单位；&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;2：担保有限公司、集体所有制、全民所有制；&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;3：有限责任公司、无限责任公司、香港分公司、股份有限责任公司；4：合伙企业、外商投资、投资企业；&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;5：自然人独资、个体工商户、自然人商户、非公司、其他类别&lt;br&gt;F_equity_hierarchy: tinyint(4) NOT NULL - 股权层级是否小于三层 1:&amp;lt;=3层，2:&amp;gt;3层&lt;br&gt;F_mcc_code_key: bigint(20) NOT NULL - mccCode枚举key值&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;spacing=0;align=left;fontFamily=courier;fontSize=12;fontStyle=0;=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WJBm6pe73H-23jdvLBGB-24" vertex="1">
-          <mxGeometry x="2" y="31.670000000000073" width="698" height="978.33" as="geometry" />
-        </mxCell>
         <mxCell id="WJBm6pe73H-23jdvLBGB-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="WJBm6pe73H-23jdvLBGB-29" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1990" y="-2140" as="targetPoint" />
@@ -33,23 +24,11 @@
         <mxCell id="WJBm6pe73H-23jdvLBGB-36" value="主体信息（客户的入驻主体）&#xa;实际控制人信息列表（中国大陆的法人信息或海外地区的董事信息）&#xa;最终受益人信息列表（直接或间接持有25%或以上股份的自然人）&#xa;企业代理人信息（持有客户授权以代表客户提交开户申请的自然人）" style="text;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="2060" y="-2010" width="390" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WJBm6pe73H-23jdvLBGB-50" value="" style="group;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="1760" y="-1990" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="WJBm6pe73H-23jdvLBGB-37" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" parent="WJBm6pe73H-23jdvLBGB-50" vertex="1">
-          <mxGeometry y="10" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="WJBm6pe73H-23jdvLBGB-46" value="减少加密接口的调用次数" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WJBm6pe73H-23jdvLBGB-50" vertex="1">
-          <mxGeometry x="20" width="140" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="WJBm6pe73H-23jdvLBGB-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="WJBm6pe73H-23jdvLBGB-51" target="WJBm6pe73H-23jdvLBGB-56" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WJBm6pe73H-23jdvLBGB-51" value="参数校验" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="1930" y="-1860" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="WJBm6pe73H-23jdvLBGB-53" value="" style="group;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="1760" y="-1850" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WJBm6pe73H-23jdvLBGB-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="WJBm6pe73H-23jdvLBGB-56" target="WJBm6pe73H-23jdvLBGB-61" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -69,21 +48,6 @@
         <mxCell id="WJBm6pe73H-23jdvLBGB-66" value="入驻申请资料" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1930" y="-2140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IPhyt0qINTzPltnLsMEy-4" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1690" y="-1720" width="230" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="WJBm6pe73H-23jdvLBGB-58" value="1.代码整理,增加组件层&#xa;2.避免使用BeanUtils.copyProperties" style="group;fillColor=#f8cecc;strokeColor=#b85450;container=0;align=left;" parent="IPhyt0qINTzPltnLsMEy-4" vertex="1" connectable="0">
-          <mxGeometry x="34.5" width="195.49999999999997" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="WJBm6pe73H-23jdvLBGB-59" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" parent="IPhyt0qINTzPltnLsMEy-4" vertex="1">
-          <mxGeometry y="14.579999999999927" width="20.833333333333336" height="20.833333333333336" as="geometry" />
-        </mxCell>
-        <mxCell id="WJBm6pe73H-23jdvLBGB-54" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" parent="1" vertex="1">
-          <mxGeometry x="1750" y="-1840" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="WJBm6pe73H-23jdvLBGB-55" value="参数校验器" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1780" y="-1850" width="140" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="IPhyt0qINTzPltnLsMEy-10" value="发送自动审核队列" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1930" y="-1440" width="120" height="60" as="geometry" />
         </mxCell>
@@ -92,6 +56,9 @@
         </mxCell>
         <mxCell id="IPhyt0qINTzPltnLsMEy-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IPhyt0qINTzPltnLsMEy-10" target="IPhyt0qINTzPltnLsMEy-14">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJBm6pe73H-23jdvLBGB-58" value="1.代码整理,增加组件层&#xa;2.参数校验器&#xa;3.减少加密接口的调用次数&#xa;4.避免使用BeanUtils.copyProperties" style="group;fillColor=#f8cecc;strokeColor=#b85450;container=0;align=left;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="2080" y="-1833" width="241.5" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
