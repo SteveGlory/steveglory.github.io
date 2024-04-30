@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-30T03:16:08.807Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="-47OHgOfVBdCCjXyHLGi" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-30T07:48:22.006Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="IXQMxGrtOV818RV6Q82_" version="24.3.1" type="github">
   <diagram name="Page 2" id="f50cWnhNKc0xasic3wzm">
     <mxGraphModel dx="-348" dy="3088" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -57,7 +57,7 @@
         <mxCell id="IPhyt0qINTzPltnLsMEy-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IPhyt0qINTzPltnLsMEy-10" target="IPhyt0qINTzPltnLsMEy-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WJBm6pe73H-23jdvLBGB-58" value="1.代码整理,增加组件层&#xa;2.参数校验器&#xa;3.减少加密接口的调用次数&#xa;4.避免使用BeanUtils.copyProperties" style="group;fillColor=#f8cecc;strokeColor=#b85450;container=0;align=left;" parent="1" vertex="1" connectable="0">
+        <mxCell id="WJBm6pe73H-23jdvLBGB-58" value="1.代码整理,增加组件层&#xa;2.参数校验器, 尽量直接使用validation的注解&#xa;    逻辑复杂的,实现Validator检验器,提供复用&#xa;3.减少加密接口的调用次数&#xa;4.避免使用BeanUtils.copyProperties" style="group;fillColor=#f8cecc;strokeColor=#b85450;container=0;align=left;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="2080" y="-1833" width="241.5" height="80" as="geometry" />
         </mxCell>
       </root>
