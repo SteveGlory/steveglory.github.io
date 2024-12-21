@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="1434" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="714" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -55,7 +55,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="j_fhu8xR5j-zrRqnU5qI-21" value="merge" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1" source="j_fhu8xR5j-zrRqnU5qI-10">
+        <mxCell id="j_fhu8xR5j-zrRqnU5qI-21" value="merge" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="j_fhu8xR5j-zrRqnU5qI-10" edge="1">
           <mxGeometry x="0.0036" relative="1" as="geometry">
             <mxPoint x="530" y="230" as="targetPoint" />
             <Array as="points">
@@ -65,7 +65,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="j_fhu8xR5j-zrRqnU5qI-22" value="merge" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1" source="j_fhu8xR5j-zrRqnU5qI-10">
+        <mxCell id="j_fhu8xR5j-zrRqnU5qI-22" value="merge" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="j_fhu8xR5j-zrRqnU5qI-10" edge="1">
           <mxGeometry x="0.0036" relative="1" as="geometry">
             <mxPoint x="670" y="260" as="targetPoint" />
             <Array as="points">
@@ -89,6 +89,65 @@
         </mxCell>
         <mxCell id="j_fhu8xR5j-zrRqnU5qI-27" value="version&lt;div&gt;3.4.1&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="80" y="410" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2WeCFoX_xEbWhCwDCsYt-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2WeCFoX_xEbWhCwDCsYt-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2WeCFoX_xEbWhCwDCsYt-2" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;strokeColor=#D79B00;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="110" y="490" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2WeCFoX_xEbWhCwDCsYt-3" value="步骤&#xa;业务线编码&#xa;自动审核批次编号&#xa;主体信息（客户的入驻主体）&#xa;交易背景信息（客户所从事的行业）&#xa;实际控制人信息列表（中国大陆的法人信息或海外地区的董事信息）&#xa;最终受益人信息列表（直接或间接持有25%或以上股份的自然人）&#xa;企业代理人信息（持有客户授权以代表客户提交开户申请的自然人）" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="230" y="570" width="390" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="2WeCFoX_xEbWhCwDCsYt-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2WeCFoX_xEbWhCwDCsYt-5" target="2WeCFoX_xEbWhCwDCsYt-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2WeCFoX_xEbWhCwDCsYt-5" value="敏感数据加密" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="100" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2WeCFoX_xEbWhCwDCsYt-6" value="主体信息（客户的入驻主体）&#xa;实际控制人信息列表（中国大陆的法人信息或海外地区的董事信息）&#xa;最终受益人信息列表（直接或间接持有25%或以上股份的自然人）&#xa;企业代理人信息（持有客户授权以代表客户提交开户申请的自然人）" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="230" y="750" width="390" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2WeCFoX_xEbWhCwDCsYt-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2WeCFoX_xEbWhCwDCsYt-8" target="2WeCFoX_xEbWhCwDCsYt-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2WeCFoX_xEbWhCwDCsYt-8" value="参数校验" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="100" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2WeCFoX_xEbWhCwDCsYt-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2WeCFoX_xEbWhCwDCsYt-10" target="2WeCFoX_xEbWhCwDCsYt-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2WeCFoX_xEbWhCwDCsYt-10" value="主体数据处理" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2WeCFoX_xEbWhCwDCsYt-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2WeCFoX_xEbWhCwDCsYt-12" target="2WeCFoX_xEbWhCwDCsYt-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2WeCFoX_xEbWhCwDCsYt-12" value="处理关联用户信息" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2WeCFoX_xEbWhCwDCsYt-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2WeCFoX_xEbWhCwDCsYt-14" target="2WeCFoX_xEbWhCwDCsYt-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2WeCFoX_xEbWhCwDCsYt-14" value="入驻申请资料" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2WeCFoX_xEbWhCwDCsYt-15" value="发送自动审核队列" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2WeCFoX_xEbWhCwDCsYt-16" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;strokeColor=#D79B00;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1460" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2WeCFoX_xEbWhCwDCsYt-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2WeCFoX_xEbWhCwDCsYt-15" target="2WeCFoX_xEbWhCwDCsYt-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2WeCFoX_xEbWhCwDCsYt-18" value="1.代码整理,增加组件层&#xa;2.参数校验器, 尽量直接使用validation的注解&#xa;    逻辑复杂的,实现Validator检验器,提供复用&#xa;3.减少加密接口的调用次数&#xa;4.避免使用BeanUtils.copyProperties&#xa;5.代码中的ValidateUtil" style="group;fillColor=#f8cecc;strokeColor=#b85450;container=0;align=left;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="250" y="927" width="400" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="2WeCFoX_xEbWhCwDCsYt-19" value="逻辑分层:&#xa;1.控制层  dubbo.service&#xa;2.组件层 component: 参数检验器、类型转换器、异常适配器、&#xa;    逻辑层(或者面部层Facade:多个数据层的逻辑加工)&#xa;3.数据访问层 mybatisplus(Service Entity Mapper)" style="group;fillColor=#f8cecc;strokeColor=#b85450;container=0;align=left;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="250" y="1060" width="400" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
