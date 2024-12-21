@@ -1,66 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2024-04-30T08:57:54.814Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="nlKgwHJ1TUP6puvkQq5v" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Page 2" id="f50cWnhNKc0xasic3wzm">
-    <mxGraphModel dx="-348" dy="3088" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-348" dy="3061" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="WJBm6pe73H-23jdvLBGB-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="WJBm6pe73H-23jdvLBGB-29" edge="1">
+        <mxCell id="WJBm6pe73H-23jdvLBGB-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" parent="1" source="WJBm6pe73H-23jdvLBGB-29" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1990" y="-2140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WJBm6pe73H-23jdvLBGB-29" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;strokeColor=#D79B00;fillColor=#FFE6CC;" parent="1" vertex="1">
+        <mxCell id="WJBm6pe73H-23jdvLBGB-29" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;rounded=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="1940" y="-2270" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WJBm6pe73H-23jdvLBGB-33" value="步骤&#xa;业务线编码&#xa;自动审核批次编号&#xa;主体信息（客户的入驻主体）&#xa;交易背景信息（客户所从事的行业）&#xa;实际控制人信息列表（中国大陆的法人信息或海外地区的董事信息）&#xa;最终受益人信息列表（直接或间接持有25%或以上股份的自然人）&#xa;企业代理人信息（持有客户授权以代表客户提交开户申请的自然人）" style="text;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="WJBm6pe73H-23jdvLBGB-33" value="步骤&#xa;业务线编码&#xa;自动审核批次编号&#xa;主体信息（客户的入驻主体）&#xa;交易背景信息（客户所从事的行业）&#xa;实际控制人信息列表（中国大陆的法人信息或海外地区的董事信息）&#xa;最终受益人信息列表（直接或间接持有25%或以上股份的自然人）&#xa;企业代理人信息（持有客户授权以代表客户提交开户申请的自然人）" style="text;whiteSpace=wrap;rounded=1;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="2060" y="-2190" width="390" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="WJBm6pe73H-23jdvLBGB-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="WJBm6pe73H-23jdvLBGB-34" target="WJBm6pe73H-23jdvLBGB-51" edge="1">
+        <mxCell id="WJBm6pe73H-23jdvLBGB-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" parent="1" source="WJBm6pe73H-23jdvLBGB-34" target="WJBm6pe73H-23jdvLBGB-51" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WJBm6pe73H-23jdvLBGB-34" value="敏感数据加密" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="WJBm6pe73H-23jdvLBGB-34" value="敏感数据加密" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="1930" y="-2000" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WJBm6pe73H-23jdvLBGB-36" value="主体信息（客户的入驻主体）&#xa;实际控制人信息列表（中国大陆的法人信息或海外地区的董事信息）&#xa;最终受益人信息列表（直接或间接持有25%或以上股份的自然人）&#xa;企业代理人信息（持有客户授权以代表客户提交开户申请的自然人）" style="text;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="WJBm6pe73H-23jdvLBGB-36" value="主体信息（客户的入驻主体）&#xa;实际控制人信息列表（中国大陆的法人信息或海外地区的董事信息）&#xa;最终受益人信息列表（直接或间接持有25%或以上股份的自然人）&#xa;企业代理人信息（持有客户授权以代表客户提交开户申请的自然人）" style="text;whiteSpace=wrap;rounded=1;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="2060" y="-2010" width="390" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WJBm6pe73H-23jdvLBGB-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="WJBm6pe73H-23jdvLBGB-51" target="WJBm6pe73H-23jdvLBGB-56" edge="1">
+        <mxCell id="WJBm6pe73H-23jdvLBGB-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" parent="1" source="WJBm6pe73H-23jdvLBGB-51" target="WJBm6pe73H-23jdvLBGB-56" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WJBm6pe73H-23jdvLBGB-51" value="参数校验" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="WJBm6pe73H-23jdvLBGB-51" value="参数校验" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="1930" y="-1860" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WJBm6pe73H-23jdvLBGB-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="WJBm6pe73H-23jdvLBGB-56" target="WJBm6pe73H-23jdvLBGB-61" edge="1">
+        <mxCell id="WJBm6pe73H-23jdvLBGB-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" parent="1" source="WJBm6pe73H-23jdvLBGB-56" target="WJBm6pe73H-23jdvLBGB-61" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WJBm6pe73H-23jdvLBGB-56" value="主体数据处理" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="WJBm6pe73H-23jdvLBGB-56" value="主体数据处理" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="1930" y="-1720" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IPhyt0qINTzPltnLsMEy-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WJBm6pe73H-23jdvLBGB-61" target="IPhyt0qINTzPltnLsMEy-10">
+        <mxCell id="IPhyt0qINTzPltnLsMEy-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" parent="1" source="WJBm6pe73H-23jdvLBGB-61" target="IPhyt0qINTzPltnLsMEy-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WJBm6pe73H-23jdvLBGB-61" value="处理关联用户信息" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="WJBm6pe73H-23jdvLBGB-61" value="处理关联用户信息" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="1930" y="-1580" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WJBm6pe73H-23jdvLBGB-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="WJBm6pe73H-23jdvLBGB-66" target="WJBm6pe73H-23jdvLBGB-34" edge="1">
+        <mxCell id="WJBm6pe73H-23jdvLBGB-68" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" parent="1" source="WJBm6pe73H-23jdvLBGB-66" target="WJBm6pe73H-23jdvLBGB-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WJBm6pe73H-23jdvLBGB-66" value="入驻申请资料" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="WJBm6pe73H-23jdvLBGB-66" value="入驻申请资料" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;rounded=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="1930" y="-2140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IPhyt0qINTzPltnLsMEy-10" value="发送自动审核队列" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="IPhyt0qINTzPltnLsMEy-10" value="发送自动审核队列" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="1930" y="-1440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IPhyt0qINTzPltnLsMEy-14" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;strokeColor=#D79B00;fillColor=#FFE6CC;" vertex="1" parent="1">
+        <mxCell id="IPhyt0qINTzPltnLsMEy-14" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="1940" y="-1300" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IPhyt0qINTzPltnLsMEy-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IPhyt0qINTzPltnLsMEy-10" target="IPhyt0qINTzPltnLsMEy-14">
+        <mxCell id="IPhyt0qINTzPltnLsMEy-15" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" parent="1" source="IPhyt0qINTzPltnLsMEy-10" target="IPhyt0qINTzPltnLsMEy-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WJBm6pe73H-23jdvLBGB-58" value="1.代码整理,增加组件层&#xa;2.参数校验器, 尽量直接使用validation的注解&#xa;    逻辑复杂的,实现Validator检验器,提供复用&#xa;3.减少加密接口的调用次数&#xa;4.避免使用BeanUtils.copyProperties&#xa;5.代码中的ValidateUtil" style="group;fillColor=#f8cecc;strokeColor=#b85450;container=0;align=left;" parent="1" vertex="1" connectable="0">
+        <mxCell id="WJBm6pe73H-23jdvLBGB-58" value="1.代码整理,增加组件层&#xa;2.参数校验器, 尽量直接使用validation的注解&#xa;    逻辑复杂的,实现Validator检验器,提供复用&#xa;3.减少加密接口的调用次数&#xa;4.避免使用BeanUtils.copyProperties&#xa;5.代码中的ValidateUtil" style="group;container=0;align=left;rounded=1;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="2080" y="-1833" width="400" height="93" as="geometry" />
         </mxCell>
-        <mxCell id="IPhyt0qINTzPltnLsMEy-18" value="逻辑分层:&#xa;1.控制层  dubbo.service&#xa;2.组件层 component: 参数检验器、类型转换器、异常适配器、&#xa;    逻辑层(或者面部层Facade:多个数据层的逻辑加工)&#xa;3.数据访问层 mybatisplus(Service Entity Mapper)" style="group;fillColor=#f8cecc;strokeColor=#b85450;container=0;align=left;" vertex="1" connectable="0" parent="1">
+        <mxCell id="IPhyt0qINTzPltnLsMEy-18" value="逻辑分层:&#xa;1.控制层  dubbo.service&#xa;2.组件层 component: 参数检验器、类型转换器、异常适配器、&#xa;    逻辑层(或者面部层Facade:多个数据层的逻辑加工)&#xa;3.数据访问层 mybatisplus(Service Entity Mapper)" style="group;container=0;align=left;rounded=1;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="2080" y="-1700" width="400" height="80" as="geometry" />
         </mxCell>
       </root>
